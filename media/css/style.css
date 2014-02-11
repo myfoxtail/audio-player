@@ -1,0 +1,21 @@
+#play-control { background: url("../img/player_play.png") no-repeat 0 0; width: 48px; height: 48px; display: block; }
+#play-control.paused { background-image: url("../img/player_pause.png"); }
+#time-shift { font-size: 0.8em; font-family: Tahoma, Arial, sans-serif; display : block; margin-left : 6px; margin-top : 8px; width : 60px; }
+
+.sound-track { display: block; background: rgba(0,102,153, 0.2); padding : 13px 29px 4px; border-radius : 3px; height : 110px; margin : 0 auto; width : 515px; }
+	.track-seekable { width: inherit; height: 8px; background: rgba(0,102,153, 0.3); display: block; border-radius : 5px; }
+	#back-track.track-seekable { width: inherit; background: rgba(255, 93, 152, 0.3); display: block; border-radius : 5px;
+		background-image:
+		linear-gradient(270deg, rgb(0,0,0) 1px, rgba(0,0,0,0) 1px),
+		linear-gradient(270deg, rgb(0,0,0) 1px, rgba(0,0,0,0) 1px),
+		linear-gradient(270deg, rgb(0,0,0) 1px, rgba(0,0,0,0) 1px),
+		linear-gradient(270deg, rgb(0,0,0) 1px, rgba(0,0,0,0) 1px),
+		linear-gradient(270deg, rgb(0,0,0) 1px, rgba(0,0,0,0) 1px),
+		linear-gradient(270deg, rgb(0,0,0) 1px, rgba(0,0,0,0) 1px);
+		background-repeat: repeat-x; background-size: 5px 5px, 10px 10px, 20px 30px; height: 38px; }
+    .track-played { width: 0; background: rgba(0,102,153, 0.5); height: inherit; display: block; border-radius : 5px; }
+
+.controls { display: block; float: left; margin : 6px; }
+.media-view-cont { width: 400px; float: left; margin-left: 30px;  }
+	#media-view { float: left; display : block; width : 400px; margin-top: 12px; margin-top : 12px; }
+.track-cont {  margin-top: 20px; overflow: hidden; }
