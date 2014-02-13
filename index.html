@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script type="text/javascript" src="scripts/Player.js"></script>
+		<script type="text/javascript" src="scripts/Draggable.js"></script>
 		<script type="text/javascript" src="scripts/main.js"></script>
 		<link rel="stylesheet" type="text/css" href="media/css/style.css" />
 	</head>
 	<body>
-		<audio id="background-media" src="media/audio/Need to feel loved.mp3"></audio>
-		<audio id="voice-media" src="media/audio/Love never gonna out.mp3"></audio>
+		<audio id="background-media" src="media/audio/back-track.mp3"></audio>
+		<audio id="voice-media" src="media/audio/voice-track.mp3"></audio>
 
 		<div class="sound-track">
 			<div class="controls">
@@ -23,6 +25,12 @@
 							<div class="track-played" id="back-played"></div>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="controls">
+				<span id="volume"></span>
+				<div id="volume-track">
+					<div id="volume-level"></div>
 				</div>
 			</div>
 		</div>
